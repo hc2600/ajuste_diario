@@ -1,0 +1,72 @@
+#########
+#  Rodar o mouseInfo para pegar as posições
+#  no CMD: python
+#  from mouseinfo import mouseInfo
+#  mouseInfo
+#  Tirar o 3 sec delay
+#  apontar para o intem e tocar F6 com a janela mouseInfo na frente
+
+
+##########################################
+#  Alterar fórmula de dias letivos -  Substituir /200 por /213 na coluna que calcula o Resumo da Frêquencia
+#  Prof. Walter Ramos          17/12/2022 
+# ######################################## 
+
+
+import pyautogui
+import pyperclip
+import time
+
+
+# Tocar na planilha
+pyautogui.click(2739,411,duration=1)
+
+# Abrir pagina de pesquisa CTRL + H
+pyautogui.hotkey('ctrl','h')
+time.sleep(2)
+# Localizar /200 
+pyautogui.click(2914,469,duration=1)
+pyautogui.hotkey('ctrl', 'a')
+pyautogui.hotkey('delete')
+pyautogui.write("/200")
+
+
+# Substituir por  /213
+pyautogui.click(2914,526,duration=1)
+pyautogui.hotkey('ctrl', 'a')
+pyautogui.hotkey('delete')
+pyautogui.write("/213")
+
+# Pesquisar: 
+pyautogui.click(2923,578,duration=1)
+time.sleep(1)
+
+# Intervalo específico
+pyautogui.click(2923,659,duration=1)
+
+
+# Entrar com intervalo
+pyautogui.click(3046,583,duration=1)
+pyautogui.hotkey('ctrl', 'a')
+pyautogui.hotkey('delete')
+# Descomentar se até 3º ou especial 
+pyperclip.copy('Diário!LJ6:LJ77')
+
+
+pyautogui.hotkey('ctrl', 'v') 
+
+
+# Pesquisar também dentro de formulas
+pyautogui.click(2820,768,duration=1)
+time.sleep(2)
+
+# Substituir tudo
+pyautogui.click(3083,894,duration=1)
+
+# Concluido
+pyautogui.click(3225,901,duration=1)
+
+
+
+
+

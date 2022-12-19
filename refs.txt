@@ -1,0 +1,33 @@
+LJ6
+=?/2013
+
+Até 3º ano + Ed. Especial
+Diário!LJ6:LJ77
+
+4º, 5º ano
+Diário!MX6:MX77
+
+6º ao 9º ano
+Ciências!OG6:OG77
+Matemática!OF6:OF77
+História!OF6:OF77
+Geografia!OF6:OF77
+Arte!OF6:OF77
+Ed. Física!OF6:OF77
+Português!OF6:OF77
+Inglês!OF6:OF77
+Espanhol!OF6:OF77
+
+
+
+
+Ciências!OG6:OG77
+Matemática!OG6:OG77     Matemática!OF6:OF77
+História!OG6:OG77       História!OF6:OF77
+Geografia!OG6:OG77      Geografia!OF6:OF77
+Arte!OG6:OG77           Arte!OF6:OF77
+Ed. Física!OG6:OG77     Ed. Física!OF6:OF77
+Português!OG6:OG77      Português!OF6:OF77
+Inglês!OG6:OG77         Inglês!OF6:OF77
+Espanhol!OG6:OG77       Espanhol!OF6:OF77
+
